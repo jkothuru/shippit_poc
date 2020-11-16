@@ -1,0 +1,9 @@
+---
+
+- name: app server
+  hosts: tag_Name_App
+  become: yes
+  gather_facts: no
+
+  roles:
+    - app
